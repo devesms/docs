@@ -1,0 +1,40 @@
+# Node modules
+node_modules
+**/node_modules
+
+# Các tệp log
+*.log
+
+# Các tệp cài đặt của IDE/editor
+.vscode
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# Các tệp hệ thống (Mac, Windows)
+.DS_Store
+Thumbs.db
+
+# Các thư mục và tệp liên quan đến Docker
+docker-compose.override.yml
+Dockerfile
+docker-compose.yml
+
+# Tệp cài đặt của npm và yarn
+package-lock.json
+yarn.lock
+
+# Các thư mục build hoặc output của dự án
+build
+dist
+
+# Tệp nhạy cảm hoặc tạm thời
+*.env
+.env.local
+.env.*.local
+
+# Tệp và thư mục khác không cần thiết
+*.md
+*.git
+.git/
+.gitmodules

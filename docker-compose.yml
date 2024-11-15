@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mintlify:
+    build: .
+    container_name: mintlify-dev
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: [ "mintlify", "dev" ]
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped

@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Thư mục và tệp build
+dist/
+build/
+
+# Tệp cài đặt của IDE/editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Thư mục chứa các tệp tạm thời
+.tmp/
+
+# Các tệp cấu hình của hệ thống
+.DS_Store           # macOS
+Thumbs.db            # Windows
+
+# Các tệp môi trường nhạy cảm
+.env
+.env.local
+.env.*.local
+
+# Tệp nhạy cảm không nên đưa vào git
+*.pem
+*.key
+*.crt
+
+# Tệp lock nếu bạn muốn dùng yarn hoặc npm ở chế độ global
+package-lock.json
+yarn.lock
+
+# Các tệp của Git
+.git/
+.gitmodules
+
+# Các tệp logs của ứng dụng
+*.log
